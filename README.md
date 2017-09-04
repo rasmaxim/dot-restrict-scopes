@@ -2,7 +2,7 @@
 
 Django OAuth Toolkit extension to restrict the scopes available for an application.
 
-## Installation
+## Installation
 
 Just install directly from Github using using `pip`:
 
@@ -10,7 +10,7 @@ Just install directly from Github using using `pip`:
 pip install -e git+https://github.com/cedadev/dot-restrict-scopes.git@tag_branch_or_commit_hash#egg=dot_restrict_scopes
 ```
 
-## Usage
+## Usage
 
 The restricted application must be enabled in your `settings.py`:
 
