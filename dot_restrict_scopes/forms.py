@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Django forms for use with the dot-restrict-scopes package.
 """
