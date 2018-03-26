@@ -15,7 +15,7 @@ class DelimitedListField(forms.MultipleChoiceField):
     delimiter = ','
 
     def __init__(self, delimiter = None, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super(DelimitedListField, self).__init__(*args, **kwargs)
         self.delimiter = delimiter or self.delimiter
 
     def prepare_value(self, value):
