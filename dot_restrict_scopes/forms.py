@@ -29,7 +29,7 @@ class DelimitedListField(forms.MultipleChoiceField):
     def clean(self, value):
         # Let the parent clean the value first, then join the result using the
         # specified delimiter
-        return self.delimiter.join(super().clean(value))
+        return self.delimiter.join(super(DelimitedListField, self).clean(value))
 
 
 class RestrictedApplicationForm(forms.ModelForm):
